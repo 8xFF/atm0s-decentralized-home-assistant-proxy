@@ -10,7 +10,6 @@ codenotary: hello@8xff.io
 image: "ghcr.io/8xff/atm0s-decentralized-home-assistant-proxy-{arch}"
 map:
   - ssl:rw
-  - share
 arch:
   - aarch64
   - amd64
