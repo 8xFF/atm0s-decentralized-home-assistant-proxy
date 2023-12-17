@@ -1,0 +1,18 @@
+---
+configuration:
+  tcp_connector_addr:
+    name: Relay server address
+    description: >-
+      8xFF Relay Server address in format IP:port, default to 127.0.0.1:33333
+  http_dest:
+    name: HTTP proxy destination
+    description: >-
+      HTTP Proxy destination, default to 127.0.0.1:8080
+  https_dest:
+    name: SNI-HTTPS proxy destination
+    description: >-
+      SNI-HTTPS Proxy destination, default to 127.0.0.1:8443
+  local_key: 
+    name: Persistent local key
+    description: >-
+      Persistent local key location in ssl folder, default to 8xff.pem
