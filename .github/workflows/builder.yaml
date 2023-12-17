@@ -52,7 +52,7 @@ jobs:
           if [[ -n ${changed} ]]; then
             echo "Changed add-ons: $changed";
             echo "changed=true" >> $GITHUB_OUTPUT;
-            echo "addons=['atm0s-decentralized-home-assistant-proxy']" >> $GITHUB_OUTPUT;
+            echo "addons=['']" >> $GITHUB_OUTPUT;
           else
             echo "No add-on had any monitored files changed (${{ env.MONITORED_FILES }})";
           fi
