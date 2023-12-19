@@ -1,9 +1,13 @@
 ---
 configuration:
-  tcp_connector_addr:
+  connector_addr:
     name: Relay server address
     description: >-
       8xFF Relay Server address in format IP:port, default to 127.0.0.1:33333
+  connector-protocol:
+    name: Relay server protocol
+    description: >-
+      Protocol of 8xFF Relay server, possible values: tcp, quic, default to tcp
   http_dest:
     name: HTTP proxy destination
     description: >-
