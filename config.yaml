@@ -1,7 +1,7 @@
 ---
 name: 8xFF HA relayer agent
 description: Decentralized HomeAssistant Proxy
-version: 0.1.6
+version: 0.1.7
 slug: 8xff_ha_relayer
 init: false
 host_network: true

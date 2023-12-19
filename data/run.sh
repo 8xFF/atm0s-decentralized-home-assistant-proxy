@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 set -e
 
-RELAY_SERVER=$(bashio::config 'tcp_connector_addr')
+RELAY_SERVER=$(bashio::config 'connector_addr')
 PROTOCOL=$(bashio::config 'connector_protocol')
 HTTP_DEST=$(bashio::config 'http_dest')
 HTTPS_DEST=$(bashio::config 'https_dest')
