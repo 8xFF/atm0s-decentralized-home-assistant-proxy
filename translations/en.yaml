@@ -4,7 +4,7 @@ configuration:
     name: Relay server address
     description: >-
       8xFF Relay Server address in format IP:port, default to 127.0.0.1:33333
-  connector-protocol:
+  connector_protocol:
     name: Relay server protocol
     description: >-
       Protocol of 8xFF Relay server, possible values: tcp, quic, default to tcp
