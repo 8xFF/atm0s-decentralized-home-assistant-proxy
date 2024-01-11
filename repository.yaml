@@ -1,4 +1,3 @@
-# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: 8xFF's Home Assistant Add-ons
 url: 'https://github.com/8xFF/atm0s-decentralized-home-assistant-proxy/'
 maintainer: 8xFF Team
